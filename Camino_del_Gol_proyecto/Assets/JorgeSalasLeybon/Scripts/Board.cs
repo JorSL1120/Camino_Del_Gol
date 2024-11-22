@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Board : MonoBehaviour
+public class Board
 {
-    private const int size = 5;
-    private const int enemyProb = 2;
-    int[,] tablero;
+    public const int size = 5;
+    public const int enemyProb = 2;
+    public int[,] tablero;
 
-    private void Awake()
+    public void initBoard()
     {
         tablero = new int[size, size];
+        resetBoard();
     }
 
     public void resetBoard()
@@ -51,6 +52,11 @@ public class Board : MonoBehaviour
         return data;
     }
 
+    private void Awake()
+    {
+        tablero = new int[size, size];
+    }
+
     void Start()
     {
         resetBoard();
@@ -58,19 +64,6 @@ public class Board : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            resetBoard();
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log(toString());
-        }
-
-        if( Input.GetKeyDown(KeyCode.R))
-        {
-            randomBoard();
-        }
+        
     }
 }
