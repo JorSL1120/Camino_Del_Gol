@@ -6,7 +6,7 @@ public class Board
 {
     public const int size = 5;
     public const int enemyProb = 2;
-    public int[,] tablero;
+    protected int[,] tablero;
 
     public void initBoard()
     {
