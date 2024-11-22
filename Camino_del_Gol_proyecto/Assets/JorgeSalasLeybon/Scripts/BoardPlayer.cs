@@ -19,4 +19,21 @@ public class BoardPlayer : Board
 
         tablero[posx, posy] = 2;
     }
+
+    public void moveLeft()
+    {
+
+    }
+
+    public bool CanMoveLeft()
+    {
+        if(posx == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
