@@ -4,24 +4,101 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    BoardPlayer tablero;
+    BoardPlayer board;
+    public GameObject space;
+
+    public float lenX = 1f, lenY = 1f;
+
+    GameObject[,] goBoard;
 
     void Awake()
     {
-        tablero = new BoardPlayer();
-        tablero.initBoard();
+        board = new BoardPlayer();
+
+        goBoard = new GameObject[board.getSize(), board.getSize()];
+
+        for (int j = 0; j < board.getSize(); j++)
+        {
+            for (int i = 0; i < board.getSize(); i++)
+            {
+                goBoard[i, j] = GameObject.Instantiate(space, transform);
+                //goBoard[i, j].GetComponent<SpriteRenderer>().color = Color.black;
+            }
+        }
+
+        updateGuiSprite();
+        updateGuiPosition();
     }
 
+    // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Debug.Log(tablero.toString());
+            Debug.Log(board);
         }
     }
+
+    public void updateGuiPosition()
+    {
+        for (int j = 0; j < board.getSize(); j++)
+        {
+            for (int i = 0; i < board.getSize(); i++)
+            {
+                Vector2 pos = Vector2.zero;
+                pos.x = i * lenX; pos.y = j * lenY;
+                goBoard[i, j].transform.localPosition = pos;
+            }
+        }
+    }
+
+    public void updateGuiSprite()
+    {
+        for (int j = 0; j < board.getSize(); j++)
+        {
+            for (int i = 0; i < board.getSize(); i++)
+            {
+                if (board.getFromBoard(i, j) == 0)
+                {
+                    goBoard[i, j].SetActive(false);
+                }
+                else
+                {
+                    goBoard[i, j].SetActive(true);
+                }
+            }
+        }
+    }
+
+    public void moveRight()
+    {
+        board.moveRight();
+    }
+
+    public void moveLeft()
+    {
+        board.moveLeft();
+    }
+
+    public void moveUp()
+    {
+        board.moveUp();
+    }
+
+    public void moveDown()
+    {
+        board.moveDown();
+    }
+
+    public Vector2Int getPosPlayer()
+    {
+        return board.getPos();
+    }
+
 }

@@ -4,32 +4,35 @@ using UnityEngine;
 
 public class Board
 {
-    public const int size = 5;
-    public const int enemyProb = 2;
+    protected int size = 5;
+    public const int enemyProb = 1;
     protected int[,] tablero;
 
-    public void initBoard()
+    // Contructor
+    public Board(int maxSize = 8)
     {
+        size = maxSize;
         tablero = new int[size, size];
         resetBoard();
     }
 
     public void resetBoard()
     {
-        for (int i = 0; i < size; i++)
+        for (int j = 0; j < size; j++)
         {
-            for(int j = 0; j < size; j++)
+            for (int i = 0; i < size; i++)
             {
                 tablero[i, j] = 0;
             }
         }
     }
 
+    // Aleatoriza los obstáculos en el tablero
     public void randomBoard()
     {
-        for (int i = 0; i < size; i++)
+        for (int j = 0; j < size; j++)
         {
-            for (int j = 0; j < size; j++)
+            for (int i = 0; i < size; i++)
             {
                 int x = Random.Range(0, 10);
                 tablero[i, j] = x <= enemyProb ? 1 : 0;
@@ -37,33 +40,30 @@ public class Board
         }
     }
 
-    public string toString()
+    override public string ToString()
     {
         string data = "";
 
-        for (int i = 0;i < size; i++)
+        for (int j = 0; j < size; j++)
         {
             data += "\n";
-            for (int j = 0;j < size; j++)
+            for (int i = 0; i < size; i++)
             {
                 data += tablero[i, j] == 0 ? "_" : "x";
             }
         }
+
         return data;
     }
 
-    private void Awake()
+    public int getFromBoard(int x, int y)
     {
-        tablero = new int[size, size];
+        return tablero[x, y];
     }
 
-    void Start()
+    public int getSize()
     {
-        resetBoard();
+        return size;
     }
 
-    void Update()
-    {
-        
-    }
 }
