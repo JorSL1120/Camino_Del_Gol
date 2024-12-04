@@ -1,0 +1,1315 @@
+fileFormatVersion: 2
+guid: 56c7adfa65d1ea544b8a16c2fbdc3e3a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soccer_players_bombman_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 268
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728d038bf45fd30428ba16011ce2976b
+      internalID: -35727825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 268
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dedd7d4b76e98a45b9dfbe0393afc31
+      internalID: -5704500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 230
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d24f225abb8a34fab31a6b38a95e76
+      internalID: -1005390389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 230
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d579072852be89e49b34706464a2b07f
+      internalID: 2073249815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 230
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55185e5d419f3cb4d932f12cfa1f6179
+      internalID: -643269181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 229
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd23ba33d1aa1478dec41ab5a12b60
+      internalID: -1379285738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 229
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccb8b0e3ff309143827ff8421dd329e
+      internalID: -596659768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 230
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a07063348c89c4eb839f05285fd0a9
+      internalID: -1705285450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 234
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ebb37c4764e8448bd488533ab2c0b
+      internalID: -2000244355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 233
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40da46bacbe4104ab720cc2bc463410
+      internalID: -167680523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 234
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62543522e8845a541bad07db4586a20d
+      internalID: -753986871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 232
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe14d854af1a2d4ca6ee0889ce426da
+      internalID: -1732784017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 189
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94b60051a398024b9b9780cc4c194db
+      internalID: -900070639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 189
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e59c96fd541014a9b0eda0e0a5635d
+      internalID: -1913541082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 190
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c94b2159ceca40acb78f6518171f0
+      internalID: 1088153174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 190
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0203517006b9de4b9a17e71971f0d5c
+      internalID: -1840101067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 191
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c82a50285e2f084bbd0638e8237c5a4
+      internalID: -1619320315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d0417e1c1acbb4eb4ca2af48ad6223
+      internalID: -1205515427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 193
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f90923315536c4ab765bff33c3c976
+      internalID: -1594577099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 191
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbacfec84c8e58141b7b3d56f3b9348a
+      internalID: 1816060745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 194
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecbe8747e249c242aa754f274606b39
+      internalID: 233366479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653baa1259f87504abc07a0ef15b5a3a
+      internalID: -555222162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174eda668f54524787115fdce497455
+      internalID: 1819277929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 148
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7df12f0f722ade418e2d391f8c5f241
+      internalID: -433294858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 150
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ed22847ebceb74bbc240756299e6d9
+      internalID: -2126320470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 149
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ea9da7d7f9254fa77aa7e80434f75
+      internalID: 668790931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506e8ff6c55805445b6b0849eefee227
+      internalID: 931685042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 149
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14d2ad74b0d0684e88f85c68be7e543
+      internalID: 1584690633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 152
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c621da430199a0449987273ff80d8d4
+      internalID: 243582694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 151
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5a5b8de0a35c2438aca662bc781245
+      internalID: 993993315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_30
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 153
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4271f4535e24e2441a44cc08877474a3
+      internalID: -121489708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_31
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 151
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402abe791c7c63246aeba8804babd262
+      internalID: -1238862753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 112
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0c9ebb931aa514d9510a86d364edbc
+      internalID: -930167760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 112
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40036788c66624fac70a00022cf02c
+      internalID: -988420859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 111
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a44a9f806c7f164f81e5f127f72ec0a
+      internalID: -1343848173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 111
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ef1cfb89b57f447a9e0dffa4562214
+      internalID: -506150432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 113
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42fd89acaf48d244a46f8c0c8483314
+      internalID: -897849550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 71
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f0c7510f58f4e4bbe0337df668444b
+      internalID: 1792703357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23af5612e590e7346a03636bbccbe663
+      internalID: -1794987727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 74
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f385dfb14e912043ab7004f70b76e57
+      internalID: 1468526540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_40
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 75
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a54e0b01aef8428f551b3601cd6d4
+      internalID: 1427286666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 74
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4dd691307d71e428a4ae2db4a03ad1
+      internalID: 539374176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_42
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 49
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33353b4863d3fdf40806254d03ef477b
+      internalID: 468600953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 16
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23903a83756d1d44e8642fbea63a04dc
+      internalID: 972743201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_44
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 16
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67280aeaf1457624eb2ebc94b743f4e3
+      internalID: -868254004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 39
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76d38e435d3aec478e15c7d4a2e9baf
+      internalID: 1610485787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_46
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a92cd6755a94a4bb1c0045b9d5e67c
+      internalID: -1136805692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_47
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 48
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99526896f1db09a4392ab9d9b996dae2
+      internalID: 526821398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a476bc6c835c4e409a748d95807ff7d
+      internalID: 1032357056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 16
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1ebb625493f97468125a7322fd655f
+      internalID: 973118222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_50
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 39
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdab492f6598a24cb4e2de2e06b88ea
+      internalID: -140300013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becd84cdcab1226438fbfd3f8e9eb235
+      internalID: -1832080772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_52
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 16
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b31573d0d91af4c971b864e84056b2
+      internalID: 1564078472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soccer_players_bombman_53
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 16
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20afe323557837742a080b175f6495b3
+      internalID: 218472920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      soccer_players_bombman_0: -35727825
+      soccer_players_bombman_1: -5704500
+      soccer_players_bombman_10: -753986871
+      soccer_players_bombman_11: -1732784017
+      soccer_players_bombman_12: -900070639
+      soccer_players_bombman_13: -1913541082
+      soccer_players_bombman_14: 1088153174
+      soccer_players_bombman_15: -1840101067
+      soccer_players_bombman_16: -1619320315
+      soccer_players_bombman_17: -1205515427
+      soccer_players_bombman_18: -1594577099
+      soccer_players_bombman_19: 1816060745
+      soccer_players_bombman_2: -1005390389
+      soccer_players_bombman_20: 233366479
+      soccer_players_bombman_21: -555222162
+      soccer_players_bombman_22: 1819277929
+      soccer_players_bombman_23: -433294858
+      soccer_players_bombman_24: -2126320470
+      soccer_players_bombman_25: 668790931
+      soccer_players_bombman_26: 931685042
+      soccer_players_bombman_27: 1584690633
+      soccer_players_bombman_28: 243582694
+      soccer_players_bombman_29: 993993315
+      soccer_players_bombman_3: 2073249815
+      soccer_players_bombman_30: -121489708
+      soccer_players_bombman_31: -1238862753
+      soccer_players_bombman_32: -930167760
+      soccer_players_bombman_33: -988420859
+      soccer_players_bombman_34: -1343848173
+      soccer_players_bombman_35: -506150432
+      soccer_players_bombman_36: -897849550
+      soccer_players_bombman_37: 1792703357
+      soccer_players_bombman_38: -1794987727
+      soccer_players_bombman_39: 1468526540
+      soccer_players_bombman_4: -643269181
+      soccer_players_bombman_40: 1427286666
+      soccer_players_bombman_41: 539374176
+      soccer_players_bombman_42: 468600953
+      soccer_players_bombman_43: 972743201
+      soccer_players_bombman_44: -868254004
+      soccer_players_bombman_45: 1610485787
+      soccer_players_bombman_46: -1136805692
+      soccer_players_bombman_47: 526821398
+      soccer_players_bombman_48: 1032357056
+      soccer_players_bombman_49: 973118222
+      soccer_players_bombman_5: -1379285738
+      soccer_players_bombman_50: -140300013
+      soccer_players_bombman_51: -1832080772
+      soccer_players_bombman_52: 1564078472
+      soccer_players_bombman_53: 218472920
+      soccer_players_bombman_6: -596659768
+      soccer_players_bombman_7: -1705285450
+      soccer_players_bombman_8: -2000244355
+      soccer_players_bombman_9: -167680523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
