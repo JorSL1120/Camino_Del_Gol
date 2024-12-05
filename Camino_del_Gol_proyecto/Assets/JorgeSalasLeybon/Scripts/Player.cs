@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     BoardPlayer board;
     public GameObject space;
 
-    private Animator animator;
     private bool seMovio = false;
 
     public float lenX = 1f, lenY = 1f;
@@ -36,7 +35,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -46,7 +45,6 @@ public class Player : MonoBehaviour
         {
             Debug.Log(board);
         }
-        animator.SetBool("Mov", seMovio);
     }
 
     public void updateGuiPosition()
@@ -78,6 +76,8 @@ public class Player : MonoBehaviour
                 }
             }
         }
+        Vector2Int posActual = getPosPlayer();
+        goBoard[posActual.x, posActual.y].GetComponent<Animator>().SetBool("Mov", seMovio);
     }
 
     public void moveRight()
@@ -117,5 +117,7 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         seMovio = false;
+        Vector2Int posActual = getPosPlayer();
+        goBoard[posActual.x, posActual.y].GetComponent<Animator>().SetBool("Mov", seMovio);
     }
 }

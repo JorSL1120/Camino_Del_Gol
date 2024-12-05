@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public Level level;
     public Player player;
+    public GameObject PanelPerdiste;
 
     private void Awake()
     {
@@ -15,7 +16,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        PanelPerdiste.SetActive(false);
     }
 
     void checkColl()
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
         if (level.checkPos(player.getPosPlayer()))
         {
             Debug.Log("ENDGAME");
+            PanelPerdiste.SetActive(true);
         }
     }
 
